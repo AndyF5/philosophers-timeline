@@ -88,7 +88,7 @@ const NivoTimeline = ({ philosophers }: NivoTimelineProps): JSX.Element => {
         axisBottom={null}
         theme={{
           text: {
-            fill: "#fff",
+            fill: "#8d9cab",
           },
         }}
         isInteractive={false}
