@@ -1,0 +1,232 @@
+[
+  {
+    "Philosopher": "Henry Bergson",
+    "Born": "1859/10/18",
+    "Died": "1941/01/04"
+  },
+  {
+    "Philosopher": "Edmund Husserl",
+    "Born": "1859/04/08",
+    "Died": "1938/04/27"
+  },
+  {
+    "Philosopher": "Frederick Nietzsche",
+    "Born": "1844/10/15",
+    "Died": "1900/08/25"
+  },
+  {
+    "Philosopher": "Virginia Woolf",
+    "Born": "1882/01/25",
+    "Died": "1941/03/28"
+  },
+  {
+    "Philosopher": "Jean-Paul Sartre",
+    "Born": "1905/06/21",
+    "Died": "1980/04/15"
+  },
+  {
+    "Philosopher": "Paul Ricœur",
+    "Born": "1913/02/27",
+    "Died": "2005/05/20"
+  },
+  {
+    "Philosopher": "René Descartes",
+    "Born": "1596/05/31",
+    "Died": "1650/02/11"
+  },
+  {
+    "Philosopher": "Jean-Jacques Rousseau",
+    "Born": "1712/06/28",
+    "Died": "1778/07/02"
+  },
+  {
+    "Philosopher": "Charles Beaudelaire",
+    "Born": "1821/04/09",
+    "Died": "1867/08/31"
+  },
+  {
+    "Philosopher": "Maurice Merleau-Ponty",
+    "Born": "1908/03/14",
+    "Died": "1961/05/03"
+  },
+  {
+    "Philosopher": "François-René de Chateaubriand",
+    "Born": "1768/09/04",
+    "Died": "1848/07/04"
+  },
+  {
+    "Philosopher": "Victor Hugo",
+    "Born": "1802/02/26",
+    "Died": "1885/05/22"
+  },
+  {
+    "Philosopher": "David Humes",
+    "Born": "1711/05/07",
+    "Died": "1776/08/25"
+  },
+  {
+    "Philosopher": "John Locke",
+    "Born": "1632/08/29",
+    "Died": "1704/10/28"
+  },
+  {
+    "Philosopher": "John Stuart Mill",
+    "Born": "1806/05/20",
+    "Died": "1873/05/08"
+  },
+  {
+    "Philosopher": "World War I",
+    "Born": "1914/07/28",
+    "Died": "1918/11/11"
+  },
+  {
+    "Philosopher": "World War II",
+    "Born": "1939/09/01",
+    "Died": "1945/09/02"
+  },
+  {
+    "Philosopher": "Martin Heidegger",
+    "Born": "1889/09/26",
+    "Died": "1976/05/26"
+  },
+  {
+    "Philosopher": "Immanuel Kant",
+    "Born": "1724/04/22",
+    "Died": "1804/02/12"
+  },
+  {
+    "Philosopher": "Denis Diderot",
+    "Born": "1713/10/05",
+    "Died": "1784/07/31"
+  },
+  {
+    "Philosopher": "Montesquieu",
+    "Born": "1689/01/18",
+    "Died": "1755/02/10"
+  },
+  {
+    "Philosopher": "Simone de Beauvoir",
+    "Born": "1908/01/09",
+    "Died": "1986/04/14"
+  },
+  {
+    "Philosopher": "Albert Camus",
+    "Born": "1913/11/07",
+    "Died": "1960/01/04"
+  },
+  {
+    "Philosopher": "Michel Foucault",
+    "Born": "1926/10/15",
+    "Died": "1984/06/25"
+  },
+  {
+    "Philosopher": "Georg W. F. Hegel",
+    "Born": "1770/08/27",
+    "Died": "1831/11/14"
+  },
+  {
+    "Philosopher": "Jane Austen",
+    "Born": "1775/12/16",
+    "Died": "1817/07/18"
+  },
+  {
+    "Philosopher": "Blaise Pascal",
+    "Born": "1623/06/19",
+    "Died": "1662/08/19"
+  },
+  {
+    "Philosopher": "Napoleon Bonaparte",
+    "Born": "1769/08/15",
+    "Died": "1821/05/05"
+  },
+  {
+    "Philosopher": "Leo Tolstoi",
+    "Born": "1828/09/09",
+    "Died": "1910/11/20"
+  },
+  {
+    "Philosopher": "Voltaire",
+    "Born": "1694/11/21",
+    "Died": "1778/05/30"
+  },
+  {
+    "Philosopher": "Thomas Hobbes",
+    "Born": "1588/04/05",
+    "Died": "1679/12/04"
+  },
+  {
+    "Philosopher": "Charles Darwin",
+    "Born": "1809/02/12",
+    "Died": "1882/04/19"
+  },
+  {
+    "Philosopher": "Isaac Newton",
+    "Born": "1643/01/04",
+    "Died": "1727/03/31"
+  },
+  {
+    "Philosopher": "Michel de Montaigne",
+    "Born": "1533/02/28",
+    "Died": "1592/09/13"
+  },
+  {
+    "Philosopher": "Pablo Picasso",
+    "Born": "1881/10/25",
+    "Died": "1973/04/08"
+  },
+  {
+    "Philosopher": "Wassily Kandisky",
+    "Born": "1866/12/26",
+    "Died": "1944/12/13"
+  },
+  {
+    "Philosopher": "Franco-Prussian War",
+    "Born": "1870/07/19",
+    "Died": "1871/01/28"
+  },
+  {
+    "Philosopher": "Révolution française",
+    "Born": "1789/05/01",
+    "Died": "1799/11/01"
+  },
+  {
+    "Philosopher": "La Terreur",
+    "Born": "1793/09/05",
+    "Died": "1794/07/28"
+  },
+  {
+    "Philosopher": "English Civil War",
+    "Born": "1642/08/22",
+    "Died": "1651/09/03"
+  },
+  {
+    "Philosopher": "Glorious Revolution",
+    "Born": "1688/04/01",
+    "Died": "1689/02/01"
+  },
+  {
+    "Philosopher": "Bill of Right",
+    "Born": "1689/02/01",
+    "Died": "1689/02/02"
+  },
+  {
+    "Philosopher": "Claude Debussy",
+    "Born": "1862/08/22",
+    "Died": "1918/03/25"
+  },
+  {
+    "Philosopher": "Niccolò Machiavelli",
+    "Born": "1469/05/03",
+    "Died": "1527/07/21"
+  },
+  {
+    "Philosopher": "Félix Ravaisson",
+    "Born": "1813/10/23",
+    "Died": "1900/05/18"
+  },
+  {
+    "Philosopher": "Claude Monet",
+    "Born": "1840/11/14",
+    "Died": "1926/12/05"
+  }
+]
