@@ -4,3 +4,15 @@
   padding: 2rem;
   text-align: center;
 }
+
+#github-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+#github-logo {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  margin-right: 0.5rem;
+}
