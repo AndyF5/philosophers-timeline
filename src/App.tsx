@@ -1,21 +1,13 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import Assets from "./assets";
-import philosophers from "./data/philosophers.json";
-import NivoTimeline from "./NivoTimeline";
-
-export interface Philosopher {
-  Philosopher: string;
-  Born: string;
-  Died: string;
-}
+import NivoTimeline from "./NivoTimeline/NivoTimeline";
+import Data from "./data/fetchData";
+import { Event, Philosopher } from "./models";
 
 function App() {
-  if (
-    window.matchMedia &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches
-  ) {
-    // dark mode
-  }
+  const [philosophers, setPhilosophers] = useState<Philosopher[] | null>(null);
+  const [events, setEvents] = useState<Event[] | null>(null);
 
   const gitHubLogo =
     window.matchMedia &&
@@ -23,11 +15,34 @@ function App() {
       ? Assets.GitHubLogoWhite
       : Assets.GitHubLogoBlack;
 
+  const getData = async () => {
+    const [philiosphersData, eventData] = await Promise.all([
+      Data.fetchPhilosophers(),
+      Data.fetchEvents(),
+    ]);
+
+    setPhilosophers(philiosphersData);
+    setEvents(eventData);
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <>
       <h1>Philosophers Timeline</h1>
 
-      <NivoTimeline philosophers={philosophers} />
+      <p>
+        A timeline of various philosophers, as well as some important historical
+        figures and events.
+      </p>
+
+      {philosophers && events ? (
+        <NivoTimeline philosophers={philosophers ?? []} events={events} />
+      ) : (
+        <div className="loader" />
+      )}
 
       <a
         href="https://github.com/AndyF5/philosophers-timeline"

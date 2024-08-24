@@ -1,0 +1,12 @@
+#nivo-timeline-container::-webkit-scrollbar {
+  display: none;
+}
+
+#nivo-timeline-container {
+  width: min(1000px, 90vw);
+
+  overflow-y: hidden;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
