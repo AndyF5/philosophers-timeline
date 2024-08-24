@@ -6,6 +6,7 @@
 }
 
 #github-link {
+  margin-top: 1rem;
   display: inline-flex;
   align-items: center;
 }
@@ -15,4 +16,19 @@
   height: 2rem;
   object-fit: contain;
   margin-right: 0.5rem;
+}
+
+.loader {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: min(1000px, 90vw);
+  height: 1000px;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #ffffff00;
+  }
+  100% {
+    background-color: #88888833;
+  }
 }
