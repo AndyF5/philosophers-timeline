@@ -69,15 +69,15 @@ const NivoTimeline = ({
   const eventMarkers: CartesianMarkerProps<DatumValue>[] = events.map(
     (event) => ({
       axis: "x",
-      legend: event.event + " " + event.year,
       value: event.year,
-      lineStyle: {
-        stroke: "#CF4D6F",
-      },
+      legend: event.event + " " + event.year,
       legendOrientation: "vertical",
       legendPosition: "top-left",
       textStyle: {
         fill: "#CF4D6F",
+      },
+      lineStyle: {
+        stroke: "#CF4D6F",
       },
     })
   );
@@ -99,28 +99,28 @@ const NivoTimeline = ({
           markers={[
             {
               axis: "x",
-              legend: "Present day",
               value: new Date().getFullYear(),
-              lineStyle: {
-                stroke: "#CF4D6F",
-              },
+              legend: "Present day",
               legendOrientation: "vertical",
               legendPosition: "top-left",
               textStyle: {
                 fill: "#CF4D6F",
               },
+              lineStyle: {
+                stroke: "#CF4D6F",
+              },
             },
             ...eventMarkers,
           ]}
-          colors={["#ffffff00", "#FBC2B5"]}
+          margin={{ top: 50, right: 20, bottom: 20, left: 150 }}
+          layout="horizontal"
           theme={{
             text: {
               fill: "#8d9cab",
             },
           }}
-          layout="horizontal"
+          colors={["#ffffff00", "#FBC2B5"]}
           enableLabel={false}
-          margin={{ top: 50, right: 20, bottom: 20, left: 150 }}
           enableGridX
           isInteractive={false}
           axisLeft={{
