@@ -16,11 +16,12 @@ function App() {
       : Assets.GitHubLogoBlack;
 
   const getData = async () => {
-    const data = await Data.fetchPhilosophers();
+    const [philiosphersData, eventData] = await Promise.all([
+      Data.fetchPhilosophers(),
+      Data.fetchEvents(),
+    ]);
 
-    const eventData = await Data.fetchEvents();
-
-    setPhilosophers(data);
+    setPhilosophers(philiosphersData);
     setEvents(eventData);
   };
 
